@@ -167,4 +167,4 @@ if __name__ == '__main__':
     axes[1, 2].text(1.3, 0.5, "True infection distribution", size=14, rotation=-90, 
                                          va="center", transform=axes[1, 2].transAxes)
 
-    fig.savefig("../results/survival_example_n{0}.pdf".format(num_pigs), bbox_inches="tight")
+    fig.savefig("../results/test_rightcensored_n{0}.pdf".format(num_pigs), bbox_inches="tight")

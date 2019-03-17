@@ -24,3 +24,7 @@ This folder contains code for inferring seasonal infection from time of infectio
  
 - `infectionrisk_leftcensored.stan`: Equation 5 in the main text.  A survival analysis that accounts for right-censoring, left-censoring, and host age. This is the likelihood that was used when analyzing the feral swine data.
 
+- `infectionrisk_leftcensored_rf.stan`: Equation S7 in the Appendix. A survival analysis that simultaneously accounts for right-censoring, left-censoring, and the rise and fall of the antibody curve. 
+
+- `infectionrisk_recovery.stan`: Equation S9 in the Appendix. A survival analysis that accounts for right-censoring and apparent recovery due to a seroconversion threshold. 
+

@@ -161,7 +161,7 @@ if __name__ == '__main__':
         ax.legend(prop={'size': 6.5}, frameon=False)
 
       plt.show()
-      fig.savefig("../results/challenge2_test_n{0}_lc.pdf".format(num_pigs), bbox_inches="tight")
+      fig.savefig("../results/test_leftcensored_n{0}.pdf".format(num_pigs), bbox_inches="tight")
 
 
 

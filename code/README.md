@@ -4,6 +4,10 @@
 
 - `leftcensored_analysis.py`: An implementation of the survival analysis that incorporates left-censoring. Can be used to reproduce Figure 5 in the main text.
 
+- `leftcensored_risefall_analysis.py`: An implementation of the survival analysis that incorporates left-censoring and the rising and falling of the antibody curve. Can be used to reproduce Figure S8 in the Appendix.
+
+- `recovery_analysis.py`: An implementation of the survival analysis that incorporates recovery due to the seroconversion threshold. Can be used to reproduce Figure S7 in the Appendix.
+
 - `rightcensored_analysis.py`: An implementation of the standard right-censored
 survival analysis. Can be used to reproduce Figure 3 in the main text.
 

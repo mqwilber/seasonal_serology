@@ -155,7 +155,7 @@ if __name__ == '__main__':
   axes[1].set_ylabel("Probability of infection by t, F(t)")
   axes[0].set_ylabel("Incidence, f(t)")
 
-  fig.savefig("../results/accounting_for_age.pdf", bbox_inches="tight")
+  fig.savefig("../results/test_age_n1000.pdf", bbox_inches="tight")
 
 
 

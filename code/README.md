@@ -18,4 +18,4 @@ time since infection from serology data. Moreover, it shows how some of the func
 serology data.  Additional description is given in the files. The .ipynb file
 is an editable Jupyter notebook. 
 
-- `stan_code/`: Folder containing Stan Models. See `stan_code/README.txt` for descriptions
+- `stan_code/`: Folder containing Stan Models. See `stan_code/README.md` for descriptions

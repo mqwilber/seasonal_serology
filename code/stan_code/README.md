@@ -20,11 +20,11 @@ This folder contains code for inferring seasonal infection from time of infectio
 
 - `infectionrisk_age.stan`: Equation 2 in the main text. A right-censored, survival analysis that accounts for host age (i.e. date of birth) when estimating seasonal infection risk.infection 
 
-- `infectionrisk_leftcensored.stan`: Equation 4 in the main text. A survival analysis that accounts for both left-censored infected hosts (i.e. hosts with an elevated antibody level) and right-censored uninfected hosts.
+- `infectionrisk_leftcensored.stan`: Equation 4 in the main text. A survival analysis that accounts for both left-censored infected hosts (i.e. hosts with an elevated antibody level), hosts with a time of infection, and right-censored uninfected hosts.
  
-- `infectionrisk_leftcensored.stan`: Equation 5 in the main text.  A survival analysis that accounts for right-censoring, left-censoring, and host age. This is the likelihood that was used when analyzing the feral swine data.
+- `infectionrisk_leftcensored_age.stan`: Equation 5 in the main text.  A survival analysis that accounts for right-censoring, left-censoring, host age, and time of infections. This is the likelihood that was used when analyzing the feral swine data.
 
-- `infectionrisk_leftcensored_rf.stan`: Equation S7 in the Appendix. A survival analysis that simultaneously accounts for right-censoring, left-censoring, and the rise and fall of the antibody curve. 
+- `infectionrisk_leftcensored_rf.stan`: Equation S7 in the Appendix. A survival analysis that simultaneously accounts for right-censoring, left-censoring, and the rise and fall of the antibody curve on time of infection. 
 
 - `infectionrisk_recovery.stan`: Equation S9 in the Appendix. A survival analysis that accounts for right-censoring and apparent recovery due to a seroconversion threshold. 
 

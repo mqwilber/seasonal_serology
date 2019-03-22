@@ -1,14 +1,12 @@
-import numpy as np
+## Python 3.6.8
+import numpy as np # Version '1.14.2'
 import survival as surv
-import pandas as pd
-import scipy.stats as stats
-import matplotlib.pyplot as plt
-import seaborn as sns
-from lifelines import KaplanMeierFitter
-import pystan
-import importlib
+import pandas as pd # Version '0.23.4'
+import scipy.stats as stats # Version '1.0.0'
+import matplotlib.pyplot as plt # Version '2.2.2'
+import seaborn as sns # Version '0.8.1'
+import pystan # Version '2.18.1.0'
 import os
-importlib.reload(surv)
 
 """
 Description

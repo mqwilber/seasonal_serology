@@ -1,15 +1,15 @@
 ## Python scripts for analyzing seasonal infection risk from serology samples
 
-- `age_analysis.py`: An implementation of the survival analysis that incorporates host-age.  Can be used to reproduce Figure 4 in the main text.
+- `age_analysis.py`: An implementation of the survival analysis that incorporates host-age.  Can be used to reproduce Appendix S1: Figure S4 in the main text.
 
-- `leftcensored_analysis.py`: An implementation of the survival analysis that incorporates left-censoring. Can be used to reproduce Figure 5 in the main text.
+- `leftcensored_analysis.py`: An implementation of the survival analysis that incorporates left-censoring. Can be used to reproduce Appendix S1: Figure S5 in the main text.
 
-- `leftcensored_risefall_analysis.py`: An implementation of the survival analysis that incorporates left-censoring and the rising and falling of the antibody curve. Can be used to reproduce Figure S8 in the Appendix.
+- `leftcensored_risefall_analysis.py`: An implementation of the survival analysis that incorporates left-censoring and the rising and falling of the antibody curve. Can be used to reproduce Appendix S4: Figure S1.
 
-- `recovery_analysis.py`: An implementation of the survival analysis that incorporates recovery due to the seroconversion threshold. Can be used to reproduce Figure S7 in the Appendix.
+- `recovery_analysis.py`: An implementation of the survival analysis that incorporates recovery due to the seroconversion threshold. Can be used to reproduce Appendix S6: Figure S2.
 
 - `rightcensored_analysis.py`: An implementation of the standard right-censored
-survival analysis. Can be used to reproduce Figure 3 in the main text.
+survival analysis. Can be used to reproduce Figure 2 in the main text.
 
 - `survival.py`: Accompanying functions used to prepare simulations and data for the survival analyses. Documentation of functions provided in the file.
 
